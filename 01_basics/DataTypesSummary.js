@@ -36,3 +36,39 @@ const myFunction = function(){
 }
 
 console.log(myFunction);
+
+
+
+
+
+// +++++++++++++++++++++++++MEMORY+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non Primitive)
+
+// Stack Example
+
+let myName = "Satvik Mishra"
+
+let HomeName = myName
+HomeName = "Saumya"
+
+console.log(myName);
+console.log(HomeName);
+
+// Here in Stack it creates the copy of the stack and so if we change one it won't affect on other.
+
+
+// HEAP EXAMPLE
+let userOne = {
+    email: "user@gmail.com",
+    UPI: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "satvik@gmail.com"
+console.log(userTwo.email);
+console.log(userOne.email);
+
+// Here userone.email & usertwo.email is same because in heap memory stack it takes reference from the same so if we change in one it changes the main reference so changed the value of previous one.
+

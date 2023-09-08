@@ -1,13 +1,10 @@
-"use strict" // Treat as newer version of js code
+"use strict"; // Treat as newer version of js code
 
 // alert (3+3) //We are using nodejs not browser
 
-
-let name = "Satvik"
-let age = 18
-let isLoggedIn = false
-
-
+let name = "Satvik";
+let age = 18;
+let isLoggedIn = false;
 
 //DATA TYPES
 
@@ -22,9 +19,8 @@ symbol => unique
 object
 */
 
-console.log(typeof undefined)    //Output is Undefined
+console.log(typeof undefined); //Output is Undefined
 
 // typeof tells the type of value/datatype
 
-console.log(typeof null)    //Output is object
-
+console.log(typeof null); //Output is object

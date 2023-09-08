@@ -1,1 +1,1 @@
-console.log("satvik")
+console.log("satvik");

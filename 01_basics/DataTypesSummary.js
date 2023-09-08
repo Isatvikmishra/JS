@@ -20,26 +20,21 @@ console.log(id === anotherId);
 const bigNumber = 3456543576654356754n
 */
 
-
 // #Reference(Non Primitive): Arrays, objects, Function
 
 const heros = ["babuaman", "makadimanush"]; //arrays
 
 let myObj = {
-    Name: "Satvik",
-    Age: 20,
-}
+  Name: "Satvik",
+  Age: 20,
+};
 // Objects are declared in curly braces
 
-const myFunction = function(){
-    console.log("Hello World");
-}
+const myFunction = function () {
+  console.log("Hello World");
+};
 
 console.log(myFunction);
-
-
-
-
 
 // +++++++++++++++++++++++++MEMORY+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -47,28 +42,26 @@ console.log(myFunction);
 
 // Stack Example
 
-let myName = "Satvik Mishra"
+let myName = "Satvik Mishra";
 
-let HomeName = myName
-HomeName = "Saumya"
+let HomeName = myName;
+HomeName = "Saumya";
 
 console.log(myName);
 console.log(HomeName);
 
 // Here in Stack it creates the copy of the stack and so if we change one it won't affect on other.
 
-
 // HEAP EXAMPLE
 let userOne = {
-    email: "user@gmail.com",
-    UPI: "user@ybl"
-}
+  email: "user@gmail.com",
+  UPI: "user@ybl",
+};
 
-let userTwo = userOne
+let userTwo = userOne;
 
-userTwo.email = "satvik@gmail.com"
+userTwo.email = "satvik@gmail.com";
 console.log(userTwo.email);
 console.log(userOne.email);
 
 // Here userone.email & usertwo.email is same because in heap memory stack it takes reference from the same so if we change in one it changes the main reference so changed the value of previous one.
-

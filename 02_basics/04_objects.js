@@ -47,10 +47,34 @@ const user = [
 ]
 
 // console.log(user[1].email);
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProperty('name'));
+// console.log(Object.hasOwnProperty('name'));
+
+//Destructure
+
+const course = { 
+    coursename: "JS",
+    Teacher: "SA",
+    Price: "999"
+}
+
+// course.coursename instead of using this 
+//We can use this so we dont have to delcare everyime like ___.____.____
+
+const {coursename: CN} = course
+console.log(CN);
+
+
+//JSON
+
+/*
+    "name": "satvik",
+    "age": 19
+/*
+
+

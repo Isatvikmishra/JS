@@ -47,7 +47,7 @@ function addOne(num){
 }
 // Using this we can access before initialization
 
-console.log(addTwo(2));
+// console.log(addTwo(2));
 const addTwo = function(num){
     return num + 2
 }

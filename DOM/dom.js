@@ -61,9 +61,7 @@
                 flag = 0
                } 
         });
-
 */
-
 /*
     let a = document.querySelectorAll("h2") #To select all at once it gives Nodelist which is similar to array
     console.log(a);
